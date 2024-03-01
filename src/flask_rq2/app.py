@@ -14,6 +14,7 @@ from rq.worker import DEFAULT_RESULT_TTL
 
 try:
     import click
+
 except ImportError:  # pragma: no cover
     click = None
 
